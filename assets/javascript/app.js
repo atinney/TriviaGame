@@ -110,8 +110,8 @@ $(document).ready(function() {
 	function countDown () {
 
 		// Set the minutes and seconds we're counting down to
-		var startMinutes = 0;
-		var startSeconds = 5;
+		var startMinutes = 1;
+		var startSeconds = 30;
 
 		// Combine them into a seconds value
 		var timerStart = (startMinutes * 60) + startSeconds;
